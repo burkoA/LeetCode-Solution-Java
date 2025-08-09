@@ -52,6 +52,6 @@ public class LongestSubarrayOfOnesAfterDeletingOneElement {
             maxLength = Math.max(maxLength, right - left);
         }
 
-        return !onlyOne ? maxLength : nums.length - 1;
+        return maxLength;
     }
 }
